@@ -4,10 +4,9 @@
 
 Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems.
 
-UTF-8 (8-bit Unicode Transformation Format) is a variable width character encoding capable of encoding all 1,112,064[nb 1] valid code points in Unicode using one to four 8-bit bytes.
+UTF-8 (8-bit Unicode Transformation Format) is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
 
 - First MENU option:
-
 Enter decimal number to get unicode number, UTF-8 code and symbol.
 Decimal number interval {0, ... , 65535}.
 Everything written in a function get_info()
