@@ -6,17 +6,15 @@ Unicode is a computing industry standard for the consistent encoding, representa
 
 UTF-8 (8-bit Unicode Transformation Format) is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
 
-- First MENU option:
-
-Enter decimal number to get unicode number, UTF-8 code and symbol.
-Decimal number interval {0, ... , 65535}.
+- First MENU option:<br/>
+Enter decimal number to get unicode number, UTF-8 code and symbol.<br/>
+Decimal number interval {0, ... , 65535}.<br/>
 Everything written in a function get_info()
   
-- Second MENU option:
-
-There is given 386intel.txt file which is coded with CP437 table.
-Some symbols can't be read, so we need to decode them.
-If symbol is larger than 127 it means symbol is unknown and we need convert it by using CP437.txt file.
+- Second MENU option:<br/>
+There is given 386intel.txt file which is coded with CP437 table.<br/>
+Some symbols can't be read, so we need to decode them.<br/>
+If symbol is larger than 127 it means symbol is unknown and we need convert it by using CP437.txt file.<br/>
 Everything is written in a function decode()
   
 Console Menu is amazing Python menu-based UI system for terminal applications. It's used for navigating functions.
